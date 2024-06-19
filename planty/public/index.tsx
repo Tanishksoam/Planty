@@ -1,3 +1,3 @@
-import HeroImg from "./planty_gero.jpeg";
+import HeroImg from "@/public/planty_gero.jpeg";
 
-export default { HeroImg };
+export  { HeroImg };
