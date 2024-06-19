@@ -4,7 +4,7 @@ import { HeroImg } from "@/public";
 
 const Hero = () => {
   return (
-    <div className="w-full max-w-[840px] flex  justify-between items-center py-20 ">
+    <div className="w-full max-w-[960px] flex  justify-between items-center py-20 ">
       <div className="w-3/5 h-full flex flex-col justify-start items-start gap-6 pr-8">
         <div className=" w-full text-7xl font-medium">
           Grow Happiness: Plant Subscriptions for Every Occasion
@@ -23,7 +23,7 @@ const Hero = () => {
           alt="Hero"
           width={1000}
           height={1000}
-          className="h-[600px] w-full overflow-x-hidden object-cover rounded-md"
+          className="h-[700px] w-full overflow-x-hidden object-cover rounded-md"
         />
       </div>
     </div>
