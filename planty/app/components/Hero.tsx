@@ -23,6 +23,7 @@ const Hero = () => {
           alt="Hero"
           width={1000}
           height={1000}
+          priority
           className="h-[700px] w-full overflow-x-hidden object-cover rounded-md"
         />
       </div>
