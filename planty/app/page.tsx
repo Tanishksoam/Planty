@@ -7,6 +7,7 @@ import Celebrations from "./components/Celebrations";
 import GetStarted from "./components/GetStarted";
 import { JetBrains_Mono } from "@next/font/google";
 import GifthGrowth from "./components/GifthGrowth";
+import WhyUs from "./components/WhyUs";
 
 const jetBrainsMono = JetBrains_Mono({
   weight: ["200", "300", "400", "500", "600", "700", "800"], // You can specify the weight and other options
@@ -30,6 +31,9 @@ export default function Home() {
       </div>
       <div className="w-full h-full bg-[#212121] text-[#fdfdfd] flex flex-col justify-center items-center">
         <GifthGrowth />
+      </div>
+      <div className="w-full h-full bg-[#a9f00f] text-[#fdfdfd] flex flex-col justify-center items-center">
+        <WhyUs />
       </div>
       <div className="w-full h-full bg-[#dfdfdf] text-[#fdfdfd] flex flex-col justify-center items-center">
         <GetStarted />

@@ -1,5 +1,5 @@
 import React from "react";
-import Gcards from "./GCards";
+import GCards from "./GCards";
 
 const GifthGrowth: React.FC = () => {
   return (
@@ -8,18 +8,18 @@ const GifthGrowth: React.FC = () => {
         The Gift of Growth
       </div>
       <div className="w-full flex justify-start items-start gap-4">
-        <Gcards
-          bgcolor="121212"
+        <GCards
+          bgcolor="444444"
           title="Personalized Care"
           description=" Every plant subscription includes care instructions, tips, and resources to ensure your plant thrives."
         />
-        <Gcards
-          bgcolor="121212"
+        <GCards
+          bgcolor="444444"
           title="Meaningful Gift"
           description="Give a present that goes beyond material possessions, offering a piece of nature and lasting joy."
         />
-        <Gcards
-          bgcolor="121212"
+        <GCards
+          bgcolor="444444"
           title="Sustainable Choice"
           description=" Support responsible plant sourcing and contribute to a greener future with our eco-conscious practices."
         />
