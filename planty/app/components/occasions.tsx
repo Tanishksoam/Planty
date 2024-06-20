@@ -3,7 +3,7 @@ import OCards from "./OCards";
 
 const Occasions = () => {
   return (
-    <div className="w-full max-w-[960px] flex flex-col  justify-start items-start py-10 gap-8 ">
+    <div className="w-full max-w-[960px] flex flex-col  justify-start items-start py-20 gap-8 ">
       <div className="w-full flex justify-start  items-center text-5xl font-medium ">
         Celebrate with Nature
       </div>

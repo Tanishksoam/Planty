@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import { TbTriangleFilled } from "react-icons/tb";
 import "./PlantPicks.css"; // Make sure this path is correct
 
-const PlantPicks: React.FC = () => {
+const GetStarted: React.FC = () => {
   const [toggle, setToggle] = useState(false);
   const [inProp, setInProp] = useState(false);
   const [toggle1, setToggle1] = useState(false);
@@ -141,4 +141,4 @@ const PlantPicks: React.FC = () => {
   );
 };
 
-export default PlantPicks;
+export default GetStarted;
